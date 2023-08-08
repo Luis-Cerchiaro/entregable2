@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { countryList } from "./countries"
+import { countryList } from "./Countries.jsx"
 
 const Weather = ({weatherInfo}) => {
     const [isCelsius, setIsCelsius] = useState(true)
